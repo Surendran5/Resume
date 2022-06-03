@@ -2,107 +2,134 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RESUME</title>
   </head>
   <body>
-    <header>
-      <h1 align="center" style="color:blue; background-color: rgb(192, 191, 192);"> RESUME</h1>
-      <h3>Surendran S</h3>
-      <p>surendran388@gmail.com</p>
-      <p>9788126347</p>
-      <img src="img_surendran.jpg" alt="surendran_photo" 
-      width="80px"
-      />
-    </header>
-    <article>
-      <h3  style="background-color: rgb(192, 191, 192);">Career Objective</h3>
-      <p>
-        To build a long-term career in full stack developer field with opportunities for
-        carrer growth,to know something new and enhance my skills and to gain
-        new experience and utilize my interpersonal skills to achieve my goal
-      </p>
-      <h3 style="background-color: rgb(192, 191, 192);">Academic Profile</h3>
-      <table border="10" align="center" width="1000px" height="100px">
-        <thead>
-          <tr>
-            <th>Year</th>
-            <th>Detail</th>
-          </tr>
-        </thead>
+    <div>
+      <header>
+        <h1 class="header">RESUME</h1>
+        <h2 class="block">Surendran S</h2>
+        <br />
+        <p class="block">surendran388@gmail.com</p>
+        <br />
+        <p class="block">9788126347</p>
+        <img
+          src="img_surendran.jpg"
+          alt="surendran_photo"
+          width="100px"
+          class="img"
+        />
+      </header>
+      <article>
+        <h3>Career Objective</h3>
+        <p id="first-p">
+          To build a long-term career in full stack developer field with
+          opportunities for carrer growth,to know something new and enhance my
+          skills and to gain new experience and utilize my interpersonal skills
+          to achieve my goal
+        </p>
+        <h3>Academic Profile</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Detail</th>
+            </tr>
+          </thead>
 
-        <tdody>
-          <tr>
-            <td>2013-2016</td>
-            <td>Bannari Amman Institute of Technology, Erode</td>
-          </tr>
-          <tr>
-            <td>2010-2013</td>
-            <td>N.V Polytechnic College,Pethapampatti</td>
-          </tr>
-          <tr>
-            <td>2010</td>
-            <td>Government School-State Board,valavadi</td>
-          </tr>
-        </tdody>
-      </table>
-      <h3 style="background-color: rgb(192, 191, 192);">Area of Interes</h3>
-      <ul>
-        <li>Angular- full stack developer</li>
-      </ul>
-      <h3 style="background-color: rgb(192, 191, 192);">Trainings Undertake</h3>
-      <ul>
-        <li>
-          I have Completed <strong>Angular</strong> Course in
-          <i>CREDO SYSTEMZ, chennai</i>
-        </li>
-      </ul>
-      <h3 style="background-color: rgb(192, 191, 192);">Strength</h3>
-      <ol>
-        <li>Self Motivation</li>
-        <li>New skills learing</li>
-      </ol>
-      <h3 style="background-color: rgb(192, 191, 192);">Hobbies</h3>
-      <ol>
-        <li>Playing Cricket</li>
-        <li>Gardening Work</li>
-      </ol>
-      <h3 style="background-color: rgb(192, 191, 192);">Personal Details</h3>
-      <br>
-        <label>Father's Name</label>
-        <input type="text" size="50px" />
-        <br/>
-        <label>Mother's Name</label>
-        <input type="text" size="50px" />
-        <br/>
-        <label>DOB</label>
-        <input type="date" />
-        <br/>
-        <label>Languages known</label>
-        <input type="radio"/>TAMIL <input type="radio"/>ENGLISH
-        <br/>
-        <label>Age</label>
-        <input type="number" min="18" max="25">
-        <br/>
-        <label>Address</label>
-        <input type="text" />
-      </form>
-      <button>submit</button>
-    </article>
-    <fooder>
-      <h3 style="background-color: rgb(192, 191, 192);">Declaration</h3>
-      <p>The above information furnished are true to the best of my knowledge</p>
-    <form>
-      <label>place</label>
-      <input type="text"/>
-      <br/>
-      <label>Date</label>
-      <input type="date"/>
-      <br/><label>Signature</label>
-      <br/>      <img src="post-img.jpg"
-      width="50px"
-      height="20px"/>
-    </form>
-    </fooder>
+          <tdody>
+            <tr>
+              <td>2013-2016</td>
+              <td>Bannari Amman Institute of Technology, Erode</td>
+            </tr>
+            <tr>
+              <td>2010-2013</td>
+              <td>N.V Polytechnic College,Pethapampatti</td>
+            </tr>
+            <tr>
+              <td>2010</td>
+              <td>Government School-State Board,valavadi</td>
+            </tr>
+          </tdody>
+        </table>
+        <h3>Area of Interes</h3>
+        <ul>
+          <li>Angular- full stack developer</li>
+        </ul>
+        <h3>Trainings Undertake</h3>
+        <ul>
+          <li>
+            I have Completed <strong>Angular</strong> Course in
+            <i>CREDO SYSTEMZ, chennai</i>
+          </li>
+        </ul>
+        <h3>Strength</h3>
+        <ol>
+          <li>Self Motivation</li>
+          <li>New skills learing</li>
+        </ol>
+        <h3>Hobbies</h3>
+        <ol>
+          <li>Playing Cricket</li>
+          <li>Gardening Work</li>
+        </ol>
+        <h3>Personal Details</h3>
+        <form class="form">
+          <label for="name">Father's Name</label>
+          <input
+            type="text"
+            name="Father's Name"
+            size="50"
+            value="sundarrasu"
+          />
+          <br />
+          <label>Mother's Name</label>
+          <input
+            type="text"
+            name="Mother's Name"
+            size="50"
+            value="sarathamani"
+          />
+          <br />
+          <label>DOB</label>
+          <input type="date" name="DOB" value="1995-03-05" />
+          <br />
+          <label>Languages known</label>
+          <input type="radio" checked />TAMIL
+          <input type="radio" checked />ENGLISH
+          <br />
+          <label>Age</label>
+          <input type="number" name="age" min="18" max="35" value="28" />
+          <br />
+          <label>Address</label>
+          <input
+            type="text"
+            name="address"
+            size="50"
+            value="2/156A,illupanagram,udumalpet-642120"
+          /><br />
+        </form>
+      </article>
+      <footer>
+        <h3 style="background-color: rgb(192, 191, 192)">Declaration</h3>
+        <p>
+          The above information furnished are true to the best of my knowledge
+        </p>
+        <form>
+          <label>Place</label>
+          <input type="text" name="place" value="udumalpet" />
+          <br />
+          <label>Date</label>
+          <input type="date" name="Date" value="2022-06-03" />
+        </form>
+        <div class="sign">
+          <p>Signature</p>
+          <img src="post-img.jpg" width="50" height="20" />
+        </div>
+        <p><button class="submit">submit</button></p>
+      </footer>
+    </div>
   </body>
 </html>
